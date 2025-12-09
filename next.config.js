@@ -5,7 +5,9 @@ const nextConfig = {
   eslint: {
     dirs: ['src'],
   },
-
+  experimental: {
+    turbo: false,
+  },
   reactStrictMode: false,
   swcMinify: true,
 
