@@ -6,7 +6,9 @@ const nextConfig = {
     dirs: ['src'],
   },
   experimental: {
-    turbo: false,
+    turbo: {
+      resolveAlias: {},
+    },
   },
   reactStrictMode: false,
   swcMinify: true,
